@@ -15,6 +15,7 @@ blocks:
                     - echo "Building Docker Images"
                     - ./build
                     - echo "done"
+    # For extra credit, we should push the Docker images to a registry so we can reuse them below..
     - name: "Smoke tests"
       task:
           jobs:
